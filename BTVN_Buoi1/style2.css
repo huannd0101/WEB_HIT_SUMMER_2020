@@ -1,0 +1,28 @@
+.color-yellow {
+    color: yellow;
+}
+
+h1 {
+    background-color: rgb(247, 64, 186);
+    text-align: center;
+}
+
+h2 {
+    background-color: red;
+}
+
+.bg-color-gray {
+    background-color: rgb(233, 233, 233);
+}
+
+.text-red {
+    color: red;
+}   
+
+.text-blue {
+    color: blue;
+}
+
+.text-green {
+    color: green;
+}

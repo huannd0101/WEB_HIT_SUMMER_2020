@@ -1,0 +1,122 @@
+.container {
+    text-align: center;
+}
+
+.content {
+    width: 550px;
+    margin: auto;
+    font-size: 20px;
+}
+
+h2 {
+    background-color: pink;
+    font-weight: 300;
+    background-image: linear-gradient(to right, red, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+h2:hover {
+    transform: skewY(-3deg) scale(1.2);
+}
+
+.text-red {
+    color: red;
+    /* background-color: aqua; */
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-red span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right, rgb(87, 82, 82), rgb(90, 90, 226));
+    animation: animate1 2s linear infinite;
+    animation-delay: 1s;
+}
+.text-red span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(87, 82, 82), rgb(90, 90, 226));
+    animation: animate2 2s linear infinite;
+}
+
+.text-red span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to left, rgb(87, 82, 82), rgb(90, 90, 226));
+    animation: animate3 2s linear infinite;
+    animation-delay: 1s;
+}
+.text-red span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(to top, rgb(87, 82, 82), rgb(90, 90, 226));
+    animation: animate4 2s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+@keyframes animate2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+@keyframes animate3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes animate4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+
+.text-blue {
+    color: blue;
+}
+
+.text-green {
+    color: green;
+}
+/*
+chia deu cot
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+}
+*/

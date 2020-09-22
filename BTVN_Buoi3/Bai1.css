@@ -1,0 +1,113 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+.container {
+    width: 100%;
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(221, 219, 219);
+}
+
+.header__child {
+    background-color: white;
+    padding: 3px;
+    margin: 15px 0 15px 15px;
+}
+
+.header__child--big {
+    width: 90%;
+    margin-right: 15px;
+}
+
+.header__child--small {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+/*---------------------------------------------*/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(102, 102, 250);
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+.navbar .account {
+    display: flex;
+    justify-content: space-between;
+}
+
+#login {
+    margin-left: 20px;
+}
+/*---------------------------------------------*/
+.awesomeLogo {
+    background-color: rgb(195, 195, 255);
+}
+
+.awesomeLogo h1 {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.awesomeLogo__footer {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(41, 41, 243);
+}
+
+.awesomeLogo__footer--right > div {
+    overflow: hidden;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+/*------------------------------------*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+.content .box {
+    padding: 100px;
+}
+
+.box1 {
+    background-color: grey;
+}
+.box2 {
+    background-color: hotpink;
+}
+.box3 {
+    background-color: rgb(114, 222, 241);
+}
+.box4 {
+    background-color: rgb(169, 245, 255);
+}
+.box5 {
+    background-color: rgb(245, 123, 41);
+}
+
+/*----------------------------------------*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(187, 185, 184);
+}
+
+.footer .footer__box {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(74, 74, 247);
+}

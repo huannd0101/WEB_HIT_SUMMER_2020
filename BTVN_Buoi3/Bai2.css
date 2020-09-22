@@ -1,0 +1,77 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: Arial;}
+
+.darkcyan{
+    color: darkcyan;
+}
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+/*-------------------bottom-----------------*/
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    margin: auto;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    padding: 15px;
+}
+/*---------------title---------------------*/
+.container > h1{
+    text-align: center;
+    background-color: darkcyan;
+    padding: 10px;
+    color: white;
+}
+/*-------------navbar-------------------------*/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgb(132, 180, 182);
+    color: white;
+}
+/*------------------content-------------------*/
+.content {
+    width: 70%;
+    margin: auto;
+    line-height: 20px;
+}
+.content > h1 {
+    text-align: center;
+    padding: 15px;
+}
+.content .img-box {
+    display: flex;
+    justify-content: center;
+}
+.content .img-box > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.content__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content__box .box {
+    width: 30%;
+    margin: 5px;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+}
+.content__box .box-big {
+    width: 61.2%;
+}
+/*---------------footer-----------------------*/
+.footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: darkcyan;
+}
